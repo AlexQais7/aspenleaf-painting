@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "House Painters Calgary | AspenLeaf Painting",
   description: "Professional house painters Calgary for interior & exterior painting. Licensed, insured, 2-year warranty. Free estimates today!",
+  alternates: { canonical: "https://www.aspenleafpainting.com" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
