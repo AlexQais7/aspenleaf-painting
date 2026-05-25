@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_texturewallpage_nleedn.jpg";
-const PAGE_IMG1 = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/texture_accentwall_chtjqc.jpg";
-const PAGE_IMG2 = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_texture_wall_itje9q.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_texturewallpage_nleedn.jpg";
+const PAGE_IMG1 = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/texture_accentwall_chtjqc.jpg";
+const PAGE_IMG2 = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_texture_wall_itje9q.jpg";
 
 const textures = [
   { title: "Orange Peel", desc: "A subtle, bumpy texture that resembles the skin of an orange. One of the most popular finishes in Calgary homes." },
@@ -54,7 +54,7 @@ export default function TexturePaintingPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, textAlign: "center", marginBottom: "0.75rem" }}>Texture Finishes We Specialize In</h2>
+              <h3 style={{ ...h2, textAlign: "center", marginBottom: "0.75rem" }}>Texture Finishes We Specialize In</h3>
               <p style={{ textAlign: "center", color: "var(--muted-foreground)", marginBottom: "2rem", fontSize: 16 }}>Not sure which finish is right for you? We'll help you choose during your free estimate.</p>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
                 {textures.map(item => (
@@ -70,7 +70,7 @@ export default function TexturePaintingPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, marginBottom: "1.5rem" }}>Texture Matching & Repairs</h2>
+              <h3 style={{ ...h2, marginBottom: "1.5rem" }}>Texture Matching & Repairs</h3>
               <p style={bodyText}>
                 One of the most common texture challenges is matching an existing finish after drywall repairs. Whether you've had a patch done after water damage, an electrical repair, or a renovation, the new area often looks completely different from the surrounding wall.
               </p>
@@ -83,7 +83,7 @@ export default function TexturePaintingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf for Texture Painting?</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf for Texture Painting?</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
               {[
                 { icon: Paintbrush2, title: "True Specialists", desc: "We don't dabble in texture — we specialize in it. Every technique, done right." },
@@ -108,9 +108,9 @@ export default function TexturePaintingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Ready to Add Character to Your Walls?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Book a free estimate and we'll help you choose the perfect texture finish for your space.
             </p>

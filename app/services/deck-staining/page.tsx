@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_fence_page_ad94gd.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/Simple_Colourful_Before_and_After_Color_Grade_5_ce8sfk.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_fence_page_ad94gd.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/Simple_Colourful_Before_and_After_Color_Grade_5_ce8sfk.jpg";
 
 const services = [
   { title: "Deck staining", desc: "Penetrating stains that protect while showing natural wood grain" },
@@ -53,7 +53,7 @@ export default function DeckStainingPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>Our Deck & Fence Services</h2>
+              <h3 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>Our Deck & Fence Services</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1rem" }}>
                 {services.map(item => (
                   <div key={item.title} style={{ display: "flex", alignItems: "flex-start", gap: "0.75rem", padding: "1.25rem", border: "1px solid var(--border)", borderRadius: 10, background: "#fff" }}>
@@ -68,7 +68,7 @@ export default function DeckStainingPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, marginBottom: "0.75rem" }}>Stain vs. Paint — Which Is Right for Your Deck?</h2>
+              <h3 style={{ ...h2, marginBottom: "0.75rem" }}>Stain vs. Paint — Which Is Right for Your Deck?</h3>
               <p style={{ ...bodyText, marginBottom: "1.5rem" }}>Not sure whether to stain or paint your deck? Here's a simple breakdown:</p>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.5rem" }}>
                 {[
@@ -117,7 +117,7 @@ export default function DeckStainingPage() {
               <img src={PAGE_IMG} alt="Deck staining before and after Calgary" style={{ width: "100%", height: 360, objectFit: "cover", display: "block" }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={1200} height={360} />
             </div>
 <div>
-              <h2 style={{ ...h2, marginBottom: "1.5rem" }}>Our Process</h2>
+              <h3 style={{ ...h2, marginBottom: "1.5rem" }}>Our Process</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1.5rem" }}>
                 {[
                   { step: "1. Inspection & Quote", desc: "We assess the condition of your wood, identify any rot or damage, and recommend the right finish and approach." },
@@ -139,7 +139,7 @@ export default function DeckStainingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf?</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf?</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
               {[
                 { icon: Paintbrush2, title: "Proper Preparation", desc: "We never skip prep — it's what makes the difference between a finish that lasts 2 years vs. 8." },
@@ -164,9 +164,9 @@ export default function DeckStainingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Ready to Restore Your Deck or Fence?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Book a free estimate before the season gets away from you.
             </p>

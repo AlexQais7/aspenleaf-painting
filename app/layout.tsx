@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "House Painters Calgary | AspenLeaf Painting – Interior & Exterior",
+  title: "House Painters Calgary | AspenLeaf Painting",
   description: "Professional house painters Calgary for interior & exterior painting. Licensed, insured, 2-year warranty. Free estimates today!",
 };
 

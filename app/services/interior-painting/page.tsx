@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 };
 
 // REPLACE THESE with your Cloudinary URLs once uploaded
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/IMG_2538_myvrcq.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_interior_page2_y2txnq.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/IMG_2538_myvrcq.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_interior_page2_y2txnq.jpg";
 
 const whatWePaint = [
   { title: "Walls & ceilings", desc: "repairs, skim, stain-blocking" },
@@ -69,7 +69,7 @@ export default function InteriorPaintingPage() {
 
             {/* Process */}
             <div style={{ marginBottom: "5rem" }}>
-              <h2 style={{ ...h2, marginBottom: "2rem" }}>Our Interior Painting Process</h2>
+              <h3 style={{ ...h2, marginBottom: "2rem" }}>Our Interior Painting Process</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem" }}>
                 {[
                   { step: "1. Consultation", desc: "We begin with a thorough consultation to understand your needs, discuss the scope of the project, specific areas to be painted, and any special requirements." },
@@ -89,7 +89,7 @@ export default function InteriorPaintingPage() {
 
             {/* What we paint */}
             <div style={{ marginBottom: "5rem" }}>
-              <h2 style={{ ...h2, marginBottom: "1.5rem", textAlign: "center" }}>What We Paint (and Perfect)</h2>
+              <h3 style={{ ...h2, marginBottom: "1.5rem", textAlign: "center" }}>What We Paint (and Perfect)</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1rem" }}>
                 {whatWePaint.map(item => (
                   <div key={item.title} style={{ display: "flex", alignItems: "flex-start", gap: "0.75rem", padding: "1.25rem", border: "1px solid var(--border)", borderRadius: 10, background: "#fff" }}>
@@ -108,14 +108,14 @@ export default function InteriorPaintingPage() {
 
             {/* Extra interior images */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1rem", marginBottom: "4rem" }}>
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/internalwall_after_hhqfgo.jpg" alt="Interior wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/brick_accentwall_lmj9cv.jpg" alt="Brick accent wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/internalwall2_after_ujgdbe.jpg" alt="Interior painting after Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/internalwall_after_hhqfgo.jpg" alt="Interior wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/brick_accentwall_lmj9cv.jpg" alt="Brick accent wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/internalwall2_after_ujgdbe.jpg" alt="Interior painting after Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
             </div>
         {/* Features */}
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose Our Interior Painting Services?</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose Our Interior Painting Services?</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
               {features.map(f => {
                 const Icon = f.icon;
@@ -136,7 +136,7 @@ export default function InteriorPaintingPage() {
         {/* Related services */}
         <section style={{ padding: "4rem 1rem" }}>
           <div style={{ maxWidth: 900, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "2rem" }}>Explore Our Other Services</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "2rem" }}>Explore Our Other Services</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "1rem" }}>
               {[
                 { href: "/services/exterior-painting", title: "Exterior Painting", desc: "House exterior painting Calgary" },
@@ -158,9 +158,9 @@ export default function InteriorPaintingPage() {
         {/* CTA */}
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Ready to Transform Your Interior?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Contact us today for a free, detailed estimate. Professional interior painting services you can trust.
             </p>

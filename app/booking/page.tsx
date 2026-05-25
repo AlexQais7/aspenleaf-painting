@@ -128,9 +128,9 @@ export default function BookingPage() {
         {/* FAQ */}
         <section style={{ padding: "5rem 1rem" }}>
           <div style={{ maxWidth: 900, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
               Common Questions About the Estimate
-            </h2>
+            </h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "2.5rem" }}>
               Everything you need to know before booking.
             </p>

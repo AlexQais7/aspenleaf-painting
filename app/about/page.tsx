@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 };
 
 // REPLACE with your Cloudinary URLs once uploaded
-const ALEX_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/alex_headshot_jsmyc9.jpg";
-const OLHA_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/olha_headshot_bcca6o.jpg";
-const TOGETHER_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/olha_alex_lfnr5i.jpg";
+const ALEX_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/alex_headshot_jsmyc9.jpg";
+const OLHA_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/olha_headshot_bcca6o.jpg";
+const TOGETHER_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/olha_alex_lfnr5i.jpg";
 
 const values = [
   { icon: Heart, title: "Family First", desc: "We treat every client like family and every home like our own." },
@@ -112,7 +112,7 @@ export default function AboutPage() {
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
             <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-              <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.75rem" }}>Our Core Values</h2>
+              <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.75rem" }}>Our Core Values</h3>
               <p style={{ fontSize: 17, color: "var(--muted-foreground)" }}>These principles guide every decision we make and every project we complete.</p>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
@@ -135,7 +135,7 @@ export default function AboutPage() {
         {/* Related Services */}
         <section style={{ padding: "4rem 1rem" }}>
           <div style={{ maxWidth: 900, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "2rem", textAlign: "center" }}>Complete Home & Business Services</h2>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "2rem", textAlign: "center" }}>Complete Home & Business Services</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "1rem" }}>
               {[
                 { href: "/services/interior-painting", title: "Interior Painting", desc: "Professional interior painters Calgary" },
@@ -157,9 +157,9 @@ export default function AboutPage() {
         {/* CTA */}
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Ready to Work with Calgary's Trusted Painters?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Contact us today for a free estimate and discover why families across Calgary choose AspenLeaf Painting.
             </p>

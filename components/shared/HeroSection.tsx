@@ -9,7 +9,7 @@ interface HeroSectionProps {
   showCTA?: boolean;
 }
 
-const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg";
+const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg";
 
 export default function HeroSection({ title, subtitle, imageId, imageAlt, showCTA = true }: HeroSectionProps) {
   return (

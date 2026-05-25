@@ -8,12 +8,12 @@ import { Check, Phone, Shield, Clock, Award, Paintbrush2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Commercial Painters Calgary | AspenLeaf Painting",
-  description: "Professional commercial painting in Calgary for offices, retail stores, and warehouses. Minimal disruption, premium results, licensed & insured. Free estimates.",
+  description: "Commercial painters Calgary for offices, retail, and warehouses. Minimal disruption, licensed & insured, 2-year warranty. Free estimates.",
   alternates: { canonical: "https://www.aspenleafpainting.com/services/commercial-painting" },
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_commercial_page_yywms9.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_commercial_page_yywms9.jpg";
 
 const whatWePaint = [
   { title: "Office spaces", desc: "reception areas, boardrooms, open-plan offices" },
@@ -52,7 +52,7 @@ export default function CommercialPaintingPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>Commercial Spaces We Paint</h2>
+              <h3 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>Commercial Spaces We Paint</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1rem" }}>
                 {whatWePaint.map(item => (
                   <div key={item.title} style={{ display: "flex", alignItems: "flex-start", gap: "0.75rem", padding: "1.25rem", border: "1px solid var(--border)", borderRadius: 10, background: "#fff" }}>
@@ -67,7 +67,7 @@ export default function CommercialPaintingPage() {
             </div>
 
             <div>
-              <h2 style={{ ...h2, marginBottom: "1.5rem" }}>Our Commercial Painting Process</h2>
+              <h3 style={{ ...h2, marginBottom: "1.5rem" }}>Our Commercial Painting Process</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.5rem" }}>
                 {[
                   { step: "1. Site Assessment & Quote", desc: "We visit your space, assess the scope, discuss your timeline and business hours, and provide a detailed free estimate with no surprises." },
@@ -89,7 +89,7 @@ export default function CommercialPaintingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Businesses Choose AspenLeaf</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Businesses Choose AspenLeaf</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
               {[
                 { icon: Clock, title: "Flexible Scheduling", desc: "Evenings and weekends available to minimize disruption to your operations." },
@@ -114,9 +114,9 @@ export default function CommercialPaintingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Ready to Refresh Your Commercial Space?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Free estimates, flexible scheduling, and results your clients will notice.
             </p>

@@ -79,7 +79,7 @@ export default function HomePage() {
           <div style={{ maxWidth: 1200, margin: "0 auto" }}>
             <div style={{ textAlign: "center", marginBottom: "4rem" }}>
               <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 2, color: "var(--accent)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Why Choose Us</p>
-              <h2 style={{ ...sectionTitle, color: "#fff" }}>Calgary Homeowners Choose AspenLeaf</h2>
+              <h3 style={{ ...sectionTitle, color: "#fff" }}>Calgary Homeowners Choose AspenLeaf</h3>
               <p style={{ ...sectionSubtitle, color: "rgba(255,255,255,0.75)" }}>A husband-and-wife team that treats every home like our own.</p>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "2.5rem" }}>
@@ -104,7 +104,7 @@ export default function HomePage() {
           <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "4rem", alignItems: "center" }}>
             <div>
               <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 2, color: "var(--primary)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Our Story</p>
-              <h2 style={{ ...sectionTitle, marginBottom: "1.5rem" }}>Painting Contractors Who Actually Care</h2>
+              <h3 style={{ ...sectionTitle, marginBottom: "1.5rem" }}>Painting Contractors Who Actually Care</h3>
               <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
                 Founded by Alex and Olha Kais, AspenLeaf Painting was built on one belief: your home deserves the same care we'd want for ours. We arrived in Calgary from Ukraine and this city welcomed us — now we give back through honest, quality work.
               </p>
@@ -117,7 +117,7 @@ export default function HomePage() {
             </div>
             <div style={{ position: "relative" }}>
               <img
-                src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/olha_alex_lfnr5i.jpg"
+                src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/olha_alex_lfnr5i.jpg"
                 alt="Alex and Olha Kais - Founders of AspenLeaf Painting Calgary"
                 style={{ width: "100%", borderRadius: 20, boxShadow: "0 20px 60px rgba(0,0,0,0.15)", objectFit: "cover", aspectRatio: "4/3" }}
                 loading="lazy"
@@ -140,7 +140,7 @@ export default function HomePage() {
           <div style={{ maxWidth: 900, margin: "0 auto" }}>
             <div style={{ textAlign: "center", marginBottom: "3rem" }}>
               <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 2, color: "var(--primary)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Instant Estimate</p>
-              <h2 style={sectionTitle}>Price Calculator</h2>
+              <h3 style={sectionTitle}>Price Calculator</h3>
               <p style={sectionSubtitle}>Get a ballpark estimate for your painting project in seconds. For a detailed quote, book a free estimate.</p>
             </div>
             <PriceCalculator />
@@ -151,9 +151,9 @@ export default function HomePage() {
         <section style={{ position: "relative", padding: "7rem 1.5rem", overflow: "hidden" }}>
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)" }} />
           <div style={{ position: "relative", zIndex: 1, maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
-            <h2 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 700, marginBottom: "1.25rem", color: "#fff" }}>
+            <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 700, marginBottom: "1.25rem", color: "#fff" }}>
               Ready to Transform Your Space?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2.5rem", lineHeight: 1.7, color: "#fff" }}>
               Get a free, no-obligation estimate. We'll assess your project and provide a detailed quote tailored to your needs.
             </p>

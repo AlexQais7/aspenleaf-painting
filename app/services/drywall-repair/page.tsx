@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_drywall_page_flgoa2.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_drywall_page2_jfkhfo.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_drywall_page_flgoa2.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/for_drywall_page2_jfkhfo.jpg";
 
 const repairTypes = [
   { title: "Small holes & nail pops", desc: "Quick, seamless patches for dings, nail holes, and minor damage" },
@@ -53,7 +53,7 @@ export default function DrywallRepairPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>Types of Drywall Repair We Do</h2>
+              <h3 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>Types of Drywall Repair We Do</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1rem" }}>
                 {repairTypes.map(item => (
                   <div key={item.title} style={{ display: "flex", alignItems: "flex-start", gap: "0.75rem", padding: "1.25rem", border: "1px solid var(--border)", borderRadius: 10, background: "#fff" }}>
@@ -68,7 +68,7 @@ export default function DrywallRepairPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, marginBottom: "1.5rem" }}>Our Drywall Repair Process</h2>
+              <h3 style={{ ...h2, marginBottom: "1.5rem" }}>Our Drywall Repair Process</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1.5rem" }}>
                 {[
                   { step: "1. Assessment", desc: "We inspect the damage, identify any underlying issues (especially with water damage), and provide a clear quote." },
@@ -89,7 +89,7 @@ export default function DrywallRepairPage() {
 
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf for Drywall Repair?</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf for Drywall Repair?</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
               {[
                 { icon: Paintbrush2, title: "Invisible Repairs", desc: "We texture-match so well that nobody can tell where the repair is once painted." },
@@ -114,9 +114,9 @@ export default function DrywallRepairPage() {
 
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Got Damaged Walls?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Get a free estimate — we'll assess the damage and give you a clear, honest quote.
             </p>

@@ -48,7 +48,7 @@ export default function WarrantyPage() {
             </p>
 
             {/* Covers */}
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginTop: "3rem", marginBottom: "1.25rem" }}>What Our Warranty Covers</h2>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginTop: "3rem", marginBottom: "1.25rem" }}>What Our Warranty Covers</h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", marginBottom: "3rem" }}>
               {[
                 "Peeling, flaking, or blistering paint due to application issues",
@@ -67,7 +67,7 @@ export default function WarrantyPage() {
             </div>
 
             {/* Exclusions */}
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>What Is Not Covered</h2>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>What Is Not Covered</h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               We believe in being transparent. The following situations fall outside our warranty coverage, because they stem from conditions beyond the control of our workmanship:
             </p>
@@ -87,7 +87,7 @@ export default function WarrantyPage() {
             </div>
 
             {/* How to Claim */}
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>How to Make a Warranty Claim</h2>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.4rem, 3vw, 2rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>How to Make a Warranty Claim</h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               Making a warranty claim with us is straightforward. If you notice any issue that looks like it could be a workmanship defect, reach out:
             </p>
@@ -137,7 +137,7 @@ export default function WarrantyPage() {
         {/* CTA */}
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>Ready to Get Started?</h2>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>Ready to Get Started?</h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>Book your free estimate today and paint with confidence.</p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center" }}>
               <BookingForm trigger={<span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#fff", color: "var(--primary)", padding: "0.875rem 1.75rem", borderRadius: 8, fontWeight: 600, fontSize: 16, cursor: "pointer" }}>Schedule Free Estimate</span>} />

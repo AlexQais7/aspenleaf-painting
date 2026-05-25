@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/exteriorshade_after_cvst3f.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/exterirorfront_after_afypl9.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/exteriorshade_after_cvst3f.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/exterirorfront_after_afypl9.jpg";
 
 const whatWePaint = [
   { title: "Siding & clapboard", desc: "all materials including wood, vinyl, stucco" },
@@ -53,7 +53,7 @@ export default function ExteriorPaintingPage() {
             </div>
 
             <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>What We Paint</h2>
+              <h3 style={{ ...h2, textAlign: "center", marginBottom: "1.5rem" }}>What We Paint</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1rem" }}>
                 {whatWePaint.map(item => (
                   <div key={item.title} style={{ display: "flex", alignItems: "flex-start", gap: "0.75rem", padding: "1.25rem", border: "1px solid var(--border)", borderRadius: 10, background: "#fff" }}>
@@ -68,7 +68,7 @@ export default function ExteriorPaintingPage() {
             </div>
 
             <div>
-              <h2 style={{ ...h2, marginBottom: "1.5rem" }}>Our Exterior Painting Process</h2>
+              <h3 style={{ ...h2, marginBottom: "1.5rem" }}>Our Exterior Painting Process</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.5rem" }}>
                 {[
                   { step: "1. Inspection & Quote", desc: "We assess the condition of your exterior surfaces, identify any repairs needed, and provide a detailed free estimate." },
@@ -90,7 +90,7 @@ export default function ExteriorPaintingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf for Exterior Painting?</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "3rem" }}>Why Choose AspenLeaf for Exterior Painting?</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "2rem" }}>
               {[
                 { icon: Shield, title: "Alberta-Rated Materials", desc: "Paints chosen specifically to handle Calgary's freeze-thaw climate." },
@@ -116,12 +116,12 @@ export default function ExteriorPaintingPage() {
 
             {/* Extra exterior images */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", marginBottom: "4rem" }}>
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/Simple_Colourful_Before_and_After_Color_Grade_6_p3dqbe.jpg" alt="Exterior painting before and after Calgary" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={800} height={260} />
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/exterirorfront_after_afypl9.jpg" alt="Exterior house painting Calgary after" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={800} height={260} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/Simple_Colourful_Before_and_After_Color_Grade_6_p3dqbe.jpg" alt="Exterior painting before and after Calgary" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={800} height={260} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/exterirorfront_after_afypl9.jpg" alt="Exterior house painting Calgary after" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={800} height={260} />
             </div>
         <section style={{ padding: "4rem 1rem" }}>
           <div style={{ maxWidth: 900, margin: "0 auto" }}>
-            <h2 style={{ ...h2, textAlign: "center", marginBottom: "2rem" }}>Related Services</h2>
+            <h3 style={{ ...h2, textAlign: "center", marginBottom: "2rem" }}>Related Services</h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "1rem" }}>
               {[
                 { href: "/services/interior-painting", title: "Interior Painting" },
@@ -141,9 +141,9 @@ export default function ExteriorPaintingPage() {
 
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Ready to Boost Your Home's Curb Appeal?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Get a free exterior painting estimate from Calgary's trusted painting team.
             </p>

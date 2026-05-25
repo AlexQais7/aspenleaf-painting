@@ -37,7 +37,7 @@ export default function Header() {
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 1.5rem", display: "flex", alignItems: "center", justifyContent: "space-between", height: 70 }}>
         
         <Link href="/" style={{ display: "inline-flex", alignItems: "center", textDecoration: "none" }}>
-          <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/logo_transparent_i5re94.jpg" alt="AspenLeaf Painting Calgary" style={{ height: 50, width: "auto" }} width={200} height={50} />
+          <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/logo_transparent_i5re94.jpg" alt="AspenLeaf Painting Calgary" style={{ height: 50, width: "auto" }} width={200} height={50} />
         </Link>
 
         {/* Desktop Nav */}

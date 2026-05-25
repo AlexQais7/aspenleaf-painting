@@ -93,7 +93,7 @@ export default function ContactPage() {
 
             {/* Simple contact form via Netlify */}
             <div style={{ background: "#fff", borderRadius: 16, padding: "2rem", boxShadow: "0 4px 24px rgba(0,0,0,0.06)", border: "1px solid var(--border)" }}>
-              <h2 style={{ fontFamily: "Georgia, serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>Send Us a Message</h2>
+              <h3 style={{ fontFamily: "Georgia, serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>Send Us a Message</h3>
               <p style={{ fontSize: 14, color: "var(--muted-foreground)", marginBottom: "1.5rem" }}>We'll get back to you within 1 business day.</p>
 
               <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
@@ -128,9 +128,9 @@ export default function ContactPage() {
         {/* Service Areas */}
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.75rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.75rem" }}>
               Where We Work
-            </h2>
+            </h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.5rem", maxWidth: 800 }}>
               AspenLeaf Painting serves homeowners and businesses across Calgary and many surrounding communities. We travel to any Calgary quadrant — NW, NE, SW, SE, and central — as well as nearby cities and towns within reasonable driving distance. If you're unsure whether we cover your area, just call or send a message. We'll let you know right away.
             </p>
@@ -158,9 +158,9 @@ export default function ContactPage() {
         {/* What happens next */}
         <section style={{ padding: "5rem 1rem" }}>
           <div style={{ maxWidth: 900, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>
               What Happens After You Reach Out
-            </h2>
+            </h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               When you contact us — whether by phone, email, or the form above — you{"'"}ll hear back from Alex personally. We don{"'"}t use call centres, automated responses, or sales teams. Every inquiry is handled by the person who will actually show up to do your estimate and run your project.
             </p>

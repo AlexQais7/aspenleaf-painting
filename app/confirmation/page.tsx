@@ -7,6 +7,7 @@ import { CheckCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Request Confirmed | AspenLeaf Painting Calgary",
   description: "Your estimate request has been received. AspenLeaf Painting will be in touch shortly.",
+  alternates: { canonical: "https://www.aspenleafpainting.com/confirmation" },
 };
 
 export default function ConfirmationPage() {

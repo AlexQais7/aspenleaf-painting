@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.aspenleafpainting.com/portfolio" },
 };
 
-const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg";
+const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/w_800,q_60,f_jpg";
 
 const beforeAfter = [
   { id: "White_Black_Modern_Photo_Collage_Before_After_Youtube_Thumbnail_-_1_hrgwte", alt: "Interior painting before and after Calgary" },
@@ -100,9 +100,9 @@ export default function PortfolioPage() {
         {/* Project Photos */}
         <section style={{ padding: "3rem 1rem 5rem", background: "var(--secondary)" }}>
           <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
               Completed Projects
-            </h2>
+            </h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "1.25rem" }}>A look at some of our finished work across Calgary homes.</p>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "2rem", maxWidth: 900 }}>
               The gallery below pulls from a wide range of projects — from single-room refreshes to whole-home repaints. You'll see accent walls with bold colour choices, bright whites on trim and ceilings, and neutral wall tones that let the architecture breathe. Every room shown here was prepped, primed where needed, and finished with two coats of premium paint.
@@ -134,9 +134,9 @@ export default function PortfolioPage() {
         {/* Our Process */}
         <section style={{ padding: "5rem 1rem" }}>
           <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
               How We Protect Your Home
-            </h2>
+            </h3>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "1.25rem" }}>
               Before a single drop of paint goes on, we fully protect your floors, furniture, and fixtures. This is what separates professionals from the rest.
             </p>
@@ -165,9 +165,9 @@ export default function PortfolioPage() {
         {/* CTA */}
         <section style={{ padding: "5rem 1rem", background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)", color: "#fff", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
+            <h3 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 700, marginBottom: "1rem" }}>
               Like What You See?
-            </h2>
+            </h3>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: "2rem" }}>
               Get a free estimate today. We'd love to add your home to this portfolio.
             </p>
