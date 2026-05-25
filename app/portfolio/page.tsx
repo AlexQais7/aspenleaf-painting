@@ -47,6 +47,7 @@ export default function PortfolioPage() {
     <div style={{ minHeight: "100vh", background: "var(--background)" }}>
       <Header />
       <main>
+        {/* Hero */}
         <section style={{ background: "linear-gradient(135deg, rgba(45,106,79,0.08) 0%, var(--secondary) 100%)", padding: "5rem 1rem", textAlign: "center" }}>
           <div style={{ maxWidth: 700, margin: "0 auto" }}>
             <h1 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "1rem" }}>
@@ -58,13 +59,28 @@ export default function PortfolioPage() {
           </div>
         </section>
 
+        {/* Intro */}
+        <section style={{ padding: "4rem 1rem 0" }}>
+          <div style={{ maxWidth: 900, margin: "0 auto" }}>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
+              Every project in this portfolio was completed by Alex and the AspenLeaf team on real Calgary homes. These aren't stock photos or staged shoots — they're the results our clients actually live with. We photograph our work because we're proud of it, and because we want you to see exactly what you can expect when you hire us.
+            </p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8 }}>
+              Our portfolio covers interior painting across bedrooms, living rooms, kitchens, hallways, and trim; exterior painting on single-family homes and townhomes; and the detailed prep and protection work that goes into every job before a drop of paint is applied. Browse through the sections below to get a sense of our quality and range.
+            </p>
+          </div>
+        </section>
+
         {/* Before & After */}
         <section style={{ padding: "5rem 1rem" }}>
           <div style={{ maxWidth: 1200, margin: "0 auto" }}>
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
               Before & After
             </h2>
-            <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "2rem" }}>See the difference a professional paint job makes.</p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "1.25rem" }}>See the difference a professional paint job makes.</p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "2rem", maxWidth: 800 }}>
+              These side-by-side comparisons show the transformation that happens when tired, dated, or damaged walls meet proper prep and premium paint. The results aren't just cosmetic — a fresh coat of quality paint protects your surfaces and raises the perceived value of your home. In each case, we started with surface repairs and priming before applying finish coats, which is what makes the final results last. Notice the crisp lines on the trim, the even sheen on the walls, and the absence of any roller marks or lap lines — those details are the difference between a professional finish and a DIY one.
+            </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "1.5rem" }}>
               {beforeAfter.map((img, i) => (
                 <div key={i} style={{ borderRadius: 12, overflow: "hidden", boxShadow: "0 4px 16px rgba(0,0,0,0.08)" }}>
@@ -87,7 +103,13 @@ export default function PortfolioPage() {
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
               Completed Projects
             </h2>
-            <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "2rem" }}>A look at some of our finished work across Calgary homes.</p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "1.25rem" }}>A look at some of our finished work across Calgary homes.</p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "2rem", maxWidth: 900 }}>
+              The gallery below pulls from a wide range of projects — from single-room refreshes to whole-home repaints. You'll see accent walls with bold colour choices, bright whites on trim and ceilings, and neutral wall tones that let the architecture breathe. Every room shown here was prepped, primed where needed, and finished with two coats of premium paint.
+            </p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "2rem", maxWidth: 900 }}>
+              One thing you'll notice across all these photos is consistency. The edges are clean, the coverage is even, and the sheens are smooth. That's not luck — it's the result of taking time with prep, using quality tools, and knowing when to slow down and pay attention to the details. We don't rush projects to fit in more jobs. We finish one thing properly before moving to the next.
+            </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1.5rem" }}>
               {projectPhotos.map((img, i) => (
                 <div key={i} style={{ borderRadius: 12, overflow: "hidden", boxShadow: "0 4px 16px rgba(0,0,0,0.06)", background: "#fff" }}>
@@ -115,8 +137,14 @@ export default function PortfolioPage() {
             <h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--foreground)", marginBottom: "0.5rem" }}>
               How We Protect Your Home
             </h2>
-            <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "2rem" }}>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", marginBottom: "1.25rem" }}>
               Before a single drop of paint goes on, we fully protect your floors, furniture, and fixtures. This is what separates professionals from the rest.
+            </p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "1.25rem", maxWidth: 900 }}>
+              When we arrive on the first day of a project, the first hour or two isn't spent painting — it's spent protecting. Every square foot of exposed flooring gets covered with heavy-duty paper and secured at the edges. Furniture that can be moved goes to the centre of the room and gets wrapped. Furniture that can't move gets wrapped in place. Outlets, fixtures, and hardware get masked. Window sills, baseboards, and door frames get taped with precision masking tape.
+            </p>
+            <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "2rem", maxWidth: 900 }}>
+              This process takes time, but it's non-negotiable for us. We've seen the aftermath of jobs where protection was skipped — paint specks on hardwood floors, overspray on baseboards, roller marks on carpet. Those mistakes are avoidable and inexcusable. The photos below show our standard protection setup on real projects. This is what your home looks like before we start painting.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.5rem" }}>
               {processPhotos.map((img, i) => (
