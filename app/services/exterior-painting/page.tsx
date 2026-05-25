@@ -9,17 +9,17 @@ import { Check, Phone, Shield, Clock, Award, Paintbrush2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Exterior Painters Calgary | AspenLeaf Painting",
   description: "Professional exterior house painting in Calgary. Weather-resistant coatings, licensed & insured, 2-year warranty. Free estimates.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/services/exterior-painting/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/services/exterior-painting" },
   openGraph: {
     title: "Exterior Painters Calgary | AspenLeaf Painting",
     description: "Professional exterior painting Calgary. Licensed, insured, 2-year warranty. Free estimate.",
-    url: "https://www.aspenleafpainting.com/services/exterior-painting/",
+    url: "https://www.aspenleafpainting.com/services/exterior-painting",
   },
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/exteriorshade_after_cvst3f.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/exterirorfront_after_afypl9.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/exteriorshade_after_cvst3f.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/exterirorfront_after_afypl9.jpg";
 
 const whatWePaint = [
   { title: "Siding & clapboard", desc: "all materials including wood, vinyl, stucco" },
@@ -116,8 +116,8 @@ export default function ExteriorPaintingPage() {
 
             {/* Extra exterior images */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", marginBottom: "4rem" }}>
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/Simple_Colourful_Before_and_After_Color_Grade_6_p3dqbe.jpg" alt="Exterior painting before and after Calgary" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/exterirorfront_after_afypl9.jpg" alt="Exterior house painting Calgary after" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/Simple_Colourful_Before_and_After_Color_Grade_6_p3dqbe.jpg" alt="Exterior painting before and after Calgary" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={800} height={260} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/exterirorfront_after_afypl9.jpg" alt="Exterior house painting Calgary after" style={{ width: "100%", height: 260, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={800} height={260} />
             </div>
         <section style={{ padding: "4rem 1rem" }}>
           <div style={{ maxWidth: 900, margin: "0 auto" }}>

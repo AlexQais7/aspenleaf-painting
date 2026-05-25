@@ -7,7 +7,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us | AspenLeaf Painting Calgary",
   description: "Get in touch with AspenLeaf Painting Calgary. Call, email, or book a free estimate online. Licensed painting contractors serving all of Calgary.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/contact/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/contact" },
 };
 
 export default function ContactPage() {

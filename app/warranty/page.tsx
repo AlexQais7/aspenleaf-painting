@@ -8,7 +8,7 @@ import { Shield, Check } from "lucide-react";
 export const metadata: Metadata = {
   title: "2-Year Painting Warranty | AspenLeaf Painting Calgary",
   description: "AspenLeaf Painting offers an industry-leading 2-year warranty on all painting projects in Calgary. Your satisfaction is guaranteed.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/warranty/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/warranty" },
 };
 
 export default function WarrantyPage() {

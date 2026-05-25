@@ -9,7 +9,7 @@ interface HeroSectionProps {
   showCTA?: boolean;
 }
 
-const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg";
+const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg";
 
 export default function HeroSection({ title, subtitle, imageId, imageAlt, showCTA = true }: HeroSectionProps) {
   return (
@@ -21,6 +21,7 @@ export default function HeroSection({ title, subtitle, imageId, imageAlt, showCT
           alt={imageAlt}
           style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
           crossOrigin="anonymous" referrerPolicy="no-referrer" loading="eager"
+          width={1200} height={800}
         />
         {/* Dark gradient overlay for text readability */}
         <div style={{

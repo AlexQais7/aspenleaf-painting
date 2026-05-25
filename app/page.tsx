@@ -117,10 +117,11 @@ export default function HomePage() {
             </div>
             <div style={{ position: "relative" }}>
               <img
-                src="https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/olha_alex_lfnr5i.jpg"
+                src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/olha_alex_lfnr5i.jpg"
                 alt="Alex and Olha Kais - Founders of AspenLeaf Painting Calgary"
                 style={{ width: "100%", borderRadius: 20, boxShadow: "0 20px 60px rgba(0,0,0,0.15)", objectFit: "cover", aspectRatio: "4/3" }}
                 loading="lazy"
+                width={800} height={600}
               />
               <div style={{
                 position: "absolute", bottom: -16, right: -16,

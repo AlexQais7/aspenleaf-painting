@@ -5,7 +5,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Book a Free Estimate | AspenLeaf Painting Calgary",
   description: "Book your free painting estimate online. Choose a time that works for you — no calls needed.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/booking/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/booking" },
 };
 
 export default function BookingPage() {

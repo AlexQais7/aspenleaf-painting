@@ -9,18 +9,18 @@ import { Users, Award, Heart, Shield, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us – Painting Contractors Calgary | AspenLeaf Painting",
   description: "Meet Alex and Olha Kais, founders of AspenLeaf Painting Calgary. Licensed painting contractors committed to quality, trust, and community.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/about/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/about" },
   openGraph: {
     title: "About AspenLeaf Painting – Calgary Painting Contractors",
     description: "Meet Alex and Olha Kais. Licensed, insured painting contractors serving Calgary with care.",
-    url: "https://www.aspenleafpainting.com/about/",
+    url: "https://www.aspenleafpainting.com/about",
   },
 };
 
 // REPLACE with your Cloudinary URLs once uploaded
-const ALEX_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/alex_headshot_jsmyc9.jpg";
-const OLHA_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/olha_headshot_bcca6o.jpg";
-const TOGETHER_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/olha_alex_lfnr5i.jpg";
+const ALEX_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/alex_headshot_jsmyc9.jpg";
+const OLHA_HEADSHOT = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/olha_headshot_bcca6o.jpg";
+const TOGETHER_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/olha_alex_lfnr5i.jpg";
 
 const values = [
   { icon: Heart, title: "Family First", desc: "We treat every client like family and every home like our own." },

@@ -9,12 +9,12 @@ import { Check, Phone, Shield, Award, Paintbrush2, Clock } from "lucide-react";
 export const metadata: Metadata = {
   title: "Deck & Fence Staining Calgary | AspenLeaf Painting",
   description: "Professional deck and fence staining, painting, and restoration in Calgary. Protect your outdoor wood from Alberta's harsh climate. Free estimates.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/services/deck-staining/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/services/deck-staining" },
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_fence_page_ad94gd.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/Simple_Colourful_Before_and_After_Color_Grade_5_ce8sfk.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_fence_page_ad94gd.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/Simple_Colourful_Before_and_After_Color_Grade_5_ce8sfk.jpg";
 
 const services = [
   { title: "Deck staining", desc: "Penetrating stains that protect while showing natural wood grain" },
@@ -114,7 +114,7 @@ export default function DeckStainingPage() {
             
             {/* Before after image */}
             <div style={{ marginBottom: "4rem", borderRadius: 16, overflow: "hidden", boxShadow: "0 4px 16px rgba(0,0,0,0.08)" }}>
-              <img src={PAGE_IMG} alt="Deck staining before and after Calgary" style={{ width: "100%", height: 360, objectFit: "cover", display: "block" }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
+              <img src={PAGE_IMG} alt="Deck staining before and after Calgary" style={{ width: "100%", height: 360, objectFit: "cover", display: "block" }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={1200} height={360} />
             </div>
 <div>
               <h2 style={{ ...h2, marginBottom: "1.5rem" }}>Our Process</h2>

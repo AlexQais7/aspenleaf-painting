@@ -9,11 +9,11 @@ import { Check, Phone, Shield, Clock, Award, Paintbrush2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Commercial Painters Calgary | AspenLeaf Painting",
   description: "Professional commercial painting in Calgary for offices, retail stores, and warehouses. Minimal disruption, premium results, licensed & insured. Free estimates.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/services/commercial-painting/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/services/commercial-painting" },
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_commercial_page_yywms9.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_commercial_page_yywms9.jpg";
 
 const whatWePaint = [
   { title: "Office spaces", desc: "reception areas, boardrooms, open-plan offices" },

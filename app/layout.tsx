@@ -1,4 +1,10 @@
 import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "House Painters Calgary | AspenLeaf Painting – Interior & Exterior",
+  description: "Professional house painters Calgary for interior & exterior painting. Licensed, insured, 2-year warranty. Free estimates today!",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -9,17 +9,17 @@ import { Check, Paintbrush2, Clock, Shield, Award, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "Interior Painters Calgary | AspenLeaf Painting",
   description: "Professional interior painting for walls, ceilings, trim and doors in Calgary. Clean, fast, guaranteed results. Free estimate from licensed painters.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/services/interior-painting/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/services/interior-painting" },
   openGraph: {
     title: "Interior Painters Calgary | AspenLeaf Painting",
     description: "Professional interior painting Calgary. Licensed, insured, 2-year warranty. Free estimate.",
-    url: "https://www.aspenleafpainting.com/services/interior-painting/",
+    url: "https://www.aspenleafpainting.com/services/interior-painting",
   },
 };
 
 // REPLACE THESE with your Cloudinary URLs once uploaded
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/IMG_2538_myvrcq.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_interior_page2_y2txnq.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/IMG_2538_myvrcq.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_interior_page2_y2txnq.jpg";
 
 const whatWePaint = [
   { title: "Walls & ceilings", desc: "repairs, skim, stain-blocking" },
@@ -63,7 +63,7 @@ export default function InteriorPaintingPage() {
                 </p>
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                <img src={PAGE_IMG} alt="Professional interior painting Calgary by AspenLeaf Painting" style={{ borderRadius: 12, boxShadow: "0 8px 32px rgba(0,0,0,0.12)", width: "100%", maxWidth: 420, objectFit: "cover" }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
+                <img src={PAGE_IMG} alt="Professional interior painting Calgary by AspenLeaf Painting" style={{ borderRadius: 12, boxShadow: "0 8px 32px rgba(0,0,0,0.12)", width: "100%", maxWidth: 420, objectFit: "cover" }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={420} height={560} />
               </div>
             </div>
 
@@ -108,9 +108,9 @@ export default function InteriorPaintingPage() {
 
             {/* Extra interior images */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1rem", marginBottom: "4rem" }}>
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/internalwall_after_hhqfgo.jpg" alt="Interior wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/brick_accentwall_lmj9cv.jpg" alt="Brick accent wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
-              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/internalwall2_after_ujgdbe.jpg" alt="Interior painting after Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/internalwall_after_hhqfgo.jpg" alt="Interior wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/brick_accentwall_lmj9cv.jpg" alt="Brick accent wall painting Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
+              <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/internalwall2_after_ujgdbe.jpg" alt="Interior painting after Calgary" style={{ width: "100%", height: 220, objectFit: "cover", borderRadius: 12 }} crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy" width={600} height={220} />
             </div>
         {/* Features */}
         <section style={{ padding: "5rem 1rem", background: "var(--secondary)" }}>

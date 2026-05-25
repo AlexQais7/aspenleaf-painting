@@ -9,12 +9,12 @@ import { Check, Phone, Shield, Award, Paintbrush2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Drywall Repair Calgary | AspenLeaf Painting",
   description: "Professional drywall repair in Calgary — small patches to major repairs. Seamless finishes, texture matching, ready to paint. Free estimates.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/services/drywall-repair/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/services/drywall-repair" },
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_drywall_page_flgoa2.jpg";
-const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_drywall_page2_jfkhfo.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_drywall_page_flgoa2.jpg";
+const PAGE_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_drywall_page2_jfkhfo.jpg";
 
 const repairTypes = [
   { title: "Small holes & nail pops", desc: "Quick, seamless patches for dings, nail holes, and minor damage" },

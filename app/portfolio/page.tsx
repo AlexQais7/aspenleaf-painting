@@ -6,10 +6,10 @@ import BookingForm from "@/components/forms/BookingForm";
 export const metadata: Metadata = {
   title: "Painting Portfolio Calgary | AspenLeaf Painting",
   description: "View AspenLeaf Painting's portfolio of completed interior and exterior painting projects in Calgary. Before and after photos of our real work.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/portfolio/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/portfolio" },
 };
 
-const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg";
+const BASE = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg";
 
 const beforeAfter = [
   { id: "White_Black_Modern_Photo_Collage_Before_After_Youtube_Thumbnail_-_1_hrgwte", alt: "Interior painting before and after Calgary" },
@@ -73,6 +73,7 @@ export default function PortfolioPage() {
                     alt={img.alt}
                     style={{ width: "100%", height: "260px", objectFit: "cover", display: "block", minHeight: "260px" }}
                     crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy"
+                    width={800} height={260}
                   />
                 </div>
               ))}
@@ -95,6 +96,7 @@ export default function PortfolioPage() {
                     alt={img.alt}
                     style={{ width: "100%", height: "250px", objectFit: "cover", display: "block", minHeight: "250px" }}
                     crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy"
+                    width={600} height={250}
                   />
                   <div style={{ padding: "0.6rem 1rem" }}>
                     <span style={{ fontSize: 13, color: "var(--primary)", fontWeight: 600, background: "rgba(45,106,79,0.08)", padding: "0.2rem 0.6rem", borderRadius: 20 }}>
@@ -124,6 +126,7 @@ export default function PortfolioPage() {
                     alt={img.alt}
                     style={{ width: "100%", height: "260px", objectFit: "cover", display: "block", minHeight: "260px" }}
                     crossOrigin="anonymous" referrerPolicy="no-referrer" loading="lazy"
+                    width={800} height={260}
                   />
                 </div>
               ))}

@@ -9,13 +9,13 @@ import { Check, Phone, Shield, Award, Paintbrush2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Texture Painting Calgary | AspenLeaf Painting",
   description: "Specialty texture painting in Calgary — orange peel, knockdown, skip trowel, Venetian plaster and more. Licensed, insured, free estimates.",
-  alternates: { canonical: "https://www.aspenleafpainting.com/services/texture-painting/" },
+  alternates: { canonical: "https://www.aspenleafpainting.com/services/texture-painting" },
 };
 
 
-const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_texturewallpage_nleedn.jpg";
-const PAGE_IMG1 = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/texture_accentwall_chtjqc.jpg";
-const PAGE_IMG2 = "https://res.cloudinary.com/dile6kx4g/image/upload/f_jpg/for_texture_wall_itje9q.jpg";
+const HERO_IMG = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_texturewallpage_nleedn.jpg";
+const PAGE_IMG1 = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/texture_accentwall_chtjqc.jpg";
+const PAGE_IMG2 = "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_80,f_jpg/for_texture_wall_itje9q.jpg";
 
 const textures = [
   { title: "Orange Peel", desc: "A subtle, bumpy texture that resembles the skin of an orange. One of the most popular finishes in Calgary homes." },
