@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "House Painters Calgary | AspenLeaf Painting",
@@ -18,6 +19,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#2d6a4f" />
       </head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-NXMSFX5WT9"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NXMSFX5WT9');
+        `}
+      </Script>
       <body>{children}</body>
     </html>
   );
