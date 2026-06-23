@@ -1,8 +1,16 @@
 import { MetadataRoute } from "next";
+import { getAllPosts } from "@/lib/blog/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.aspenleafpainting.com";
   const lastModified = new Date();
+
+  const blogUrls: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
+    url: `${base}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
 
   return [
     { url: base, lastModified, changeFrequency: "weekly", priority: 1.0 },
@@ -14,9 +22,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/services/deck-staining`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/services/texture-painting`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/painters-in-cougar-ridge-calgary`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/blog`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    ...blogUrls,
     { url: `${base}/portfolio`, lastModified, changeFrequency: "weekly", priority: 0.7 },
     { url: `${base}/warranty`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/contact`, lastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/booking`, lastModified, changeFrequency: "monthly", priority: 0.7 },
   ];
 }
+
