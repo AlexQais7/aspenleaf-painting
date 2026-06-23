@@ -74,6 +74,34 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Areas We Serve */}
+        <section style={{ padding: "5rem 1.5rem", background: "var(--secondary)" }}>
+          <div style={{ maxWidth: 1000, margin: "0 auto", textAlign: "center" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 2, color: "var(--primary)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Where We Work</p>
+            <h2 style={sectionTitle}>Areas We Serve</h2>
+            <p style={{ ...sectionSubtitle, marginBottom: "2rem" }}>
+              Based in Cougar Ridge, serving homeowners across SW Calgary and beyond.
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0.75rem" }}>
+              <Link href="/painters-in-cougar-ridge-calgary" style={{
+                padding: "0.6rem 1.2rem", borderRadius: 999, border: "1.5px solid var(--primary)",
+                background: "var(--primary)", color: "#fff", textDecoration: "none",
+                fontSize: 14, fontWeight: 600
+              }}>
+                Cougar Ridge
+              </Link>
+              {["Aspen Woods", "West Springs", "Springbank Hill", "Signal Hill", "Coach Hill", "Glamorgan", "Glenbrook", "Lakeview", "Nolan Hill", "Tuscany", "Evanston", "Mahogany", "Auburn Bay", "Cranston"].map(area => (
+                <span key={area} style={{
+                  padding: "0.6rem 1.2rem", borderRadius: 999, border: "1.5px solid var(--border)",
+                  background: "#fff", color: "var(--foreground)", fontSize: 14, fontWeight: 600
+                }}>
+                  {area}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Why Us */}
         <section style={{ padding: "6rem 1.5rem", background: "var(--evergreen)" }}>
           <div style={{ maxWidth: 1200, margin: "0 auto" }}>
