@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 };
 
 const serviceAreas = [
+  { name: "SW Calgary", communities: "Signal Hill, West Springs, Aspen Woods, Cougar Ridge, Coach Hill, Glamorgan, Glenbrook, Lakeview, Springbank Hill" },
   { name: "NW Calgary", communities: "Tuscany, Sage Hill, Nolan Hill, Sherwood, Royal Oak, Kincora, Evanston, Panorama Hills, Country Hills" },
   { name: "NE Calgary", communities: "Redstone, Skyview Ranch, Cornerstone, Livingston, Saddle Ridge, Taradale, Martindale, Falconridge" },
-  { name: "SW Calgary", communities: "Signal Hill, West Springs, Aspen Woods, Cougar Ridge, Coach Hill, Glamorgan, Glenbrook, Lakeview, Springbank Hill" },
   { name: "SE Calgary", communities: "Auburn Bay, Mahogany, McKenzie Towne, Cranston, Legacy, Copperfield, New Brighton, Seton, Chaparral" },
   { name: "Central Calgary", communities: "Beltline, Hillhurst, Kensington, Bridgeland, Inglewood, Marda Loop, Altadore, Bankview, Mount Pleasant" },
   { name: "Surrounding Area", communities: "Airdrie, Cochrane, Okotoks, Chestermere, Langdon — contact us to confirm availability for your location" },
@@ -135,7 +135,7 @@ export default function ContactPage() {
               AspenLeaf Painting serves homeowners and businesses across Calgary and many surrounding communities. We travel to any Calgary quadrant — NW, NE, SW, SE, and central — as well as nearby cities and towns within reasonable driving distance. If you're unsure whether we cover your area, just call or send a message. We'll let you know right away.
             </p>
             <p style={{ fontSize: 16, color: "var(--muted-foreground)", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: 800 }}>
-              Our home base is in northwest Calgary, so we have a particularly strong presence in NW communities, but we regularly work across the city. Distance does not affect our service quality, pricing, or response times — every client gets the same attention regardless of where they are in Calgary.
+              Our home base is in Cougar Ridge in southwest Calgary, so we have a particularly strong presence in SW communities, but we regularly work across the city. Distance does not affect our service quality, pricing, or response times — every client gets the same attention regardless of where they are in Calgary.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.25rem" }}>
               {serviceAreas.map(area => (
