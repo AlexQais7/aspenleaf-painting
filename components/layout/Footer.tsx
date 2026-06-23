@@ -12,7 +12,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div style={{ gridColumn: "span 1" }}>
-            <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/logo_transparent_i5re94.jpg" alt="AspenLeaf Painting" style={{ height: 52, width: "auto", marginBottom: "1.25rem", filter: "brightness(0) invert(1)" }} width={200} height={52} />
+            <img src="https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_png/logo_transparent_i5re94.png" alt="AspenLeaf Painting" style={{ height: 52, width: "auto", marginBottom: "1.25rem", filter: "brightness(0) invert(1)" }} width={200} height={52} />
             <p style={{ fontSize: 14, opacity: 0.65, lineHeight: 1.7, marginBottom: "1.5rem" }}>
               Professional painting contractors serving Calgary and surrounding areas. Licensed, insured, and committed to quality.
             </p>
