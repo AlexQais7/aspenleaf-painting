@@ -86,12 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "opens": "09:00",
                 "closes": "16:00"
               }
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": 5.0,
-              "reviewCount": 12
-            }
+            ]
           }
         `}
       </Script>
