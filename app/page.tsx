@@ -7,6 +7,9 @@ import BookingForm from "@/components/forms/BookingForm";
 import HeroSection from "@/components/shared/HeroSection";
 import PriceCalculator from "@/components/calculator/PriceCalculator";
 import { Check, Phone, Shield, Clock, Award, Paintbrush2, Star } from "lucide-react";
+import { getAllPosts } from "@/lib/blog/posts";
+
+const latestPosts = getAllPosts().slice(0, 3);
 
 const services = [
   { href: "/services/interior-painting", title: "Interior Painting", desc: "Walls, ceilings, trim, doors — flawless finish every time." },
@@ -176,6 +179,35 @@ export default function HomePage() {
         </section>
 
         {/* CTA */}
+        {/* Latest from the Blog */}
+        <section style={{ padding: "6rem 1.5rem" }}>
+          <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+            <div style={{ textAlign: "center", marginBottom: "3rem" }}>
+              <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 2, color: "var(--primary)", textTransform: "uppercase", marginBottom: "0.75rem" }}>From the Blog</p>
+              <h3 style={sectionTitle}>Painting Tips &amp; Calgary Home Care</h3>
+              <p style={sectionSubtitle}>Practical advice on maintaining and protecting your Calgary home.</p>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
+              {latestPosts.map(post => (
+                <Link key={post.slug} href={`/blog/${post.slug}`} style={{
+                  display: "block", padding: "1.75rem", border: "1.5px solid var(--border)",
+                  borderRadius: 16, textDecoration: "none", background: "#fff"
+                }}>
+                  <p style={{ fontSize: 12, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", color: "var(--primary)", marginBottom: "0.6rem" }}>{post.category}</p>
+                  <h4 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, fontWeight: 700, color: "var(--foreground)", marginBottom: "0.6rem" }}>{post.title}</h4>
+                  <p style={{ fontSize: 14, color: "var(--muted-foreground)", lineHeight: 1.6, marginBottom: "1rem" }}>{post.excerpt}</p>
+                  <span style={{ fontSize: 14, color: "var(--primary)", fontWeight: 600 }}>Read more →</span>
+                </Link>
+              ))}
+            </div>
+            <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
+              <Link href="/blog" style={{ fontSize: 15, fontWeight: 600, color: "var(--primary)", textDecoration: "none" }}>
+                View all posts →
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <section style={{ position: "relative", padding: "7rem 1.5rem", overflow: "hidden" }}>
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, var(--primary) 0%, var(--evergreen) 100%)" }} />
           <div style={{ position: "relative", zIndex: 1, maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
