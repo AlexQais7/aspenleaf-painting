@@ -31,6 +31,70 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('config', 'G-NXMSFX5WT9');
         `}
       </Script>
+      <Script id="local-business-schema" type="application/ld+json" strategy="beforeInteractive">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Painter",
+            "name": "AspenLeaf Painting",
+            "image": "https://res.cloudinary.com/dile6kx4g/image/upload/w_1200,q_60,f_jpg/logo_transparent_i5re94.jpg",
+            "url": "https://www.aspenleafpainting.com",
+            "telephone": "+18252887557",
+            "email": "alex@aspenleafpainting.com",
+            "priceRange": "$$",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "94 Cougarstone Ct SW",
+              "addressLocality": "Calgary",
+              "addressRegion": "AB",
+              "postalCode": "T3H 5R3",
+              "addressCountry": "CA"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 51.0447,
+              "longitude": -114.1719
+            },
+            "areaServed": [
+              { "@type": "City", "name": "Calgary" },
+              { "@type": "Place", "name": "Cougar Ridge" },
+              { "@type": "Place", "name": "Aspen Woods" },
+              { "@type": "Place", "name": "West Springs" },
+              { "@type": "Place", "name": "Springbank Hill" },
+              { "@type": "Place", "name": "Signal Hill" },
+              { "@type": "Place", "name": "Coach Hill" },
+              { "@type": "Place", "name": "Glamorgan" },
+              { "@type": "Place", "name": "Glenbrook" },
+              { "@type": "Place", "name": "Lakeview" },
+              { "@type": "Place", "name": "Nolan Hill" },
+              { "@type": "Place", "name": "Tuscany" },
+              { "@type": "Place", "name": "Evanston" },
+              { "@type": "Place", "name": "Mahogany" },
+              { "@type": "Place", "name": "Auburn Bay" },
+              { "@type": "Place", "name": "Cranston" }
+            ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "16:00"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "12"
+            }
+          }
+        `}
+      </Script>
       <body>{children}</body>
     </html>
   );
